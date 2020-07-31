@@ -1,0 +1,19 @@
+* Variables
+	Una variable es un espacio de memoria en la computadora donde el programa que creamos puede guardar datos que se van utilizar en la ejecución de ese programa. Las variables pueden ser de distintos tipos para almacenar distintos tipos de datos, por ejemplo números, texto, etc.
+
+* Strings
+	Los Strings son un tipo de variable que sirve para almacenar cadenas de caracteres, es decir que lo que guardemos en esas variables va a ser considerado como texto. Por ejemplo, si guardamos números en variables de tipo String, luego no vamos a poder realizar operaciones matemáticas con esos datos, ya que serán considerados como texto y no como datos numéricos.
+
+* Funciones (argumentos, `return`)
+	Una función es un pedazo de código que realiza una tarea determinada. Si vamos a necesitar que nuestros programes realicen muchas veces una misma tarea, podemos crear una función, y entonces cada vez que necesitemos realizar esa tarea, simplemente llamamos a esa función en lugar de volver a programar lo mismo una y otra vez (nos ahorra trabajo).
+	
+	Algunas funciones necesitan que les pasemos algunos datos cuando las llamamos para poder funcionar, a esos datos se les llama "argumentos".
+
+	Podemos usar la instrucción "return" dentro de una función para indicarle qué es lo que tiene que devolver como resultado de las operaciones que se realizan dentro de la función.
+
+* Declaraciones `if`
+	La declaración "if" sirve para crear condiciones. Podemos decirle a nuestro programa que si determinada condición se cumple entonces haga algo, pero si esa condición no se cumple que haga otra cosa.
+
+* Valores booleanos (`true`, `false`)
+	Las variables booleanas son variables que pueden tomar 1 de 2 valores, verdadero o falso.
+

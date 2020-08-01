@@ -1,0 +1,9 @@
+* `for`
+	El statement "for" se usa para crear bucles. Es decir, un pedazo de código que se va a ejecutar repetidamente mientras se cumpla una condición.
+
+* `&&`, `||`, `!`
+	Son operadores lógicos. El operador && se puede traducir como "y", es un operador de adición. Por ejemplo, para que se cumpla la condición "x && y == true", es necesario que tanto "x == true" como que "y == true". 
+
+	El operador || se puede traducir como "ó". Es decir que si unimos varias condiciones con un "||", basta con que una de esas condiciones sea verdadera para que la condición general sea verdadera.
+
+	El operador "!" significa negación. Por ejemplo "x !== y" significa que x NO es igual a y. 

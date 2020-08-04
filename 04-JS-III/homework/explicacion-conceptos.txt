@@ -1,0 +1,10 @@
+* Arrays
+	Un array, arreglo, o matriz, es un tipo de dato que funciona como un contenedor para otros datos. Es decir, dentro de un variable de tipo array, podemos almacenar un conjunto de datos de distintos tipos. Para crear un Array usamos la siguiente estructura: 
+		var array[dato1,dato2,dato3,etc]; Esta forma de declarar un Array se conoce como "literal".
+	O bien podemos crear el array vacío para posteriormente agregarle datos:
+		var array=[];
+
+	Cada uno de esos datos va a estar ubicado en una posición específica dentro de la matriz, lo que nos permite luego acceder al dato que queramos indicando el nombre del array junto con la posición (índice), mediante la siguiente estructura array[indice]. Para acceder a la primer posición usamos el índice 0.
+
+		var array=[54,65,87,25];
+		array[2] --> 87

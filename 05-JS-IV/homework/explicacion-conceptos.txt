@@ -1,0 +1,14 @@
+* Objetos
+	Un objeto es un contenedor de datos al igual que una matriz, pero a diferencia de la matriz donde la ubicación de cada dato se relaciona con un número de índice [i], el objeto utiliza una estructura de clave:valor. Es decir que para acceder al valor lo hacemos mediante el nombre clave en lugar de usar índices numéricos. 
+
+* Propiedades
+	En esta asociación clave:valor que utilizan los objetos, a esa clave se la llama propiedad. Es decir, un objeto tiene propiedades, y a esas propiedades se le asignan valores que pueden ser Strings, numéricos, booleanos, arrays, otros objetos.
+
+* Métodos
+	Cuando el valor que se le asigna a una propiedad de un objeto es un función, en lugar de llamarle "propiedad" le llamamos "método". 
+
+* Bucle `for…in`
+	El bucle for in sirve para recorrer un objeto iterando sobre los pares clave:valor que posee. Ya que al utilizar nombres de clave en lugar de índices numéricos, no podemos recorrerlo de la misma forma que hacemos con un array. La sintaxis es la siguiente: for(var clave in objeto){ }
+
+* Notación de puntos vs notación de corchetes
+	Se puede acceder al valor de una propiedad o método de un objeto tanto con la notación de punto como con corchetes de las siguientes formas objeto.propiedad || objeto['propiedad'] . La principal diferencia entre ambas formas, es que con la notación de corchetes además de poder indicar el nombre clave entre comillas, también se puede poner entre los corchetes una variable que dentro contenga el nombre de la propiedad o método.
